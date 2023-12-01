@@ -10,7 +10,16 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+
+  {
+    path: "/kimono",
+    element: <Kimono />,
+  },
+
+
 ]);
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
